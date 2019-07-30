@@ -2,8 +2,9 @@ import React from 'react'
 
 export default function Skills() {
   return (
-    <div>
-      
+    <div className="Skills">
+      <div className="Skills-container">
+      </div>
     </div>
   )
 }

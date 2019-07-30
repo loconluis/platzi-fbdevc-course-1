@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function Sidebar() {
+export default function Sidebar({ children }) {
   return (
-    <div>
-      
+    <div className="Sidebar">
+      <div className="Sidebar-container">
+        {children}
+      </div>
     </div>
   )
 }

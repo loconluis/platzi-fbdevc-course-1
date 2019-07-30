@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function Info() {
+export default function Info({ children }) {
   return (
-    <div>
-      
+    <div className="Info">
+      <div className="Info-container">
+        { children }
+      </div>
     </div>
   )
 }

@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function Main() {
+export default function Main({ children }) {
   return (
-    <div>
-      
+    <div className="Main">
+      <div className="Main-container">
+        { children }
+      </div>
     </div>
   )
 }
